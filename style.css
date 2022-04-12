@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.container{
+    margin: 25px;
+    display: flex;
+}
+
+.list-side li{
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.logo li{
+    list-style: none;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.tittle{
+    color:rgb(77, 76, 76);
+}
+.list-side li:hover{
+    background-color: grey;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.list-side a{
+    text-decoration: none;
+    color: black;
+}
+
+i{
+    padding-right: 10px;
+}
+
+.sub-content{
+    display: flex;
+}
+
+.contents{
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 10px;
+
+}
+
+.tittle-content{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.tittle-content i{
+    padding-left: 90%;
+    font-size: 25px;
+}
+.contents i, h3, p, .btn{
+    padding: 7px 0;
+}
+.contents p{
+    font-weight: normal;
+}
+.contents a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn{
+    background-color: gold;
+    padding: 8px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(146, 124, 0);
+    transition: all 0.4s;
+}
+
+.wrapper-right-side{
+    background-color: rgb(142, 241, 241);
+}
+
+.section-tittle{
+    display: flex;
+}
+
+.section-tittle a{
+    text-decoration: none;
+    padding: 0 7px;
+    color: black;
+}
+
+.section-tittle-list{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+    
+}
+
+.section-tittle-list-tag{
+    opacity: 0.2;
+}
+
+.wrapper-content-hop .btn{
+    background-color: black;
+    color: #fff;
+}
+
+.contents-buttom{
+    display: flex;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.logo-hop img {
+    width: 150px;
+}
+
+.log-out{
+    padding-top: 150px;
+}
+.wrapper-content-hop{
+    display: flex;
+    padding: 25px 0;
+}
+
+.wrapper-button{
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 0 20px;
+    padding: 20px 20px;
+}
+
+.hop .btn{
+    margin-top: 20px;
+}
+
+.text{
+    opacity: 0.7;
+}
